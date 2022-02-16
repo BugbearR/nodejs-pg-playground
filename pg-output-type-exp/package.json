@@ -1,0 +1,11 @@
+{
+  "name": "pg-output-type-exp",
+  "version": "1.0.0",
+  "description": "Output data type experiment",
+  "main": "index.js",
+  "author": "BugbearR",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "pg": "^8.7.3"
+  }
+}
