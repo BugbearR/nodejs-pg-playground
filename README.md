@@ -1,2 +1,2 @@
-# nodejs-pq-playground
-Node.js + pq (PostgreSQL)
+# nodejs-pg-playground
+Node.js + pg (node-postgres) (PostgreSQL)
