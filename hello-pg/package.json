@@ -1,0 +1,11 @@
+{
+  "name": "hello-pg",
+  "version": "1.0.0",
+  "description": "Hello pg",
+  "main": "index.js",
+  "author": "BugbearR",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "pg": "^8.7.3"
+  }
+}
