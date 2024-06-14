@@ -1,0 +1,19 @@
+{
+    "name": "nodejs-pg-playground",
+    "dockerComposeFile": ["docker-compose.yml"],
+    "service": "workspace",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "EditorConfig.EditorConfig",
+                "dbaeumer.vscode-eslint", // ESLint
+                "Orta.vscode-jest" // Jest
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
+        }
+    }
+}
