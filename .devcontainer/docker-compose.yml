@@ -9,8 +9,11 @@ services:
         source: ..
         target: /workspace
     environment:
+      PGHOST: db
+      PGPORT: 5432
       PGUSER: postgres
       PGPASSWORD: ${DB_PASSWORD}
+      PGDATABASE: example
     tty: true
   db:
     image: postgres:13
