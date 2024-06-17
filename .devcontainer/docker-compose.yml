@@ -16,12 +16,14 @@ services:
       PGDATABASE: example
     tty: true
   db:
-    image: postgres:13
+    image: postgres:14
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: ${DB_PASSWORD}
       POSTGRES_INITDB_ARGS: "--encoding=UTF-8 --locale=C"
       PGPASSWORD: ${DB_PASSWORD}
+    ports:
+      - "5432:5432"
     volumes:
       - type: volume
         source: postgres-data
