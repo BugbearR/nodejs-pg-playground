@@ -12,7 +12,7 @@ async function hello() {
     //     password: "Passw0rd!"
     // });
 	// console.log(client);
-	client.connect();
+	await client.connect();
     // client
 	const result = await client.query("SELECT $1::text as message", ["Hello, world!"]);
 	// console.log(result);
